@@ -1,0 +1,649 @@
+.editor-faq {
+  padding: 6px 10px 0;
+  border-radius: 2px;
+  border: 1px solid #f1f1f1;
+  min-height: 140px;
+}
+.choice-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.choice-list ul li,
+.choice-lists ul li {
+  flex: 1 0 31%;
+}
+.choice-list ul li svg,
+.choice-lists ul li svg {
+  margin-top: 3px;
+}
+
+.choice-lists ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.choice-lists ul li {
+  flex: 1 0 21%;
+}
+
+.icon-action svg {
+  height: 16px;
+  width: 16px;
+}
+
+.tab-layout ul.Polaris-Tabs li:nth-child(4) {
+  display: none;
+}
+
+.hide-tab-install ul.Polaris-Tabs li:nth-child(5) {
+  display: none;
+}
+
+.tab-install-hide ul.Polaris-Tabs li:nth-child(7) {
+  display: none;
+}
+
+input:active,
+input:focus,
+select:active,
+select:focus {
+  outline-color: rgba(69, 143, 255, 1) !important;
+}
+
+input:focus-visible {
+  display: block;
+  cursor: pointer;
+}
+
+button svg {
+  height: 100%;
+}
+
+select.select {
+  background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+)
+    no-repeat !important;
+  background-position: right 5px top !important; /* Change the px value here to change the distance */
+  -moz-appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.rating, .rating-active {
+  .Polaris-Icon {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
+
+.rating {
+  height: 23px;
+}
+
+.rating span {
+  overflow: unset !important;
+}
+
+.btn-icon-delete {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.Polaris-IndexTable__TableCell--first + .Polaris-IndexTable__TableCell {
+  position: unset;
+}
+
+.Polaris-IndexTable__TableRow td:first-child {
+  display: none;
+}
+
+.Polaris-IndexTable__TableRow td:nth-child(2) {
+  padding: 0 10px;
+  width: 300px !important;
+  text-overflow: ellipsis;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.rating-icon .Polaris-Icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0;
+}
+
+.Polaris-IndexTable__Table thead tr th:first-child {
+  display: none;
+}
+
+.Polaris-IndexTable__Table thead tr th:nth-child(2) {
+  padding: 0 10px;
+}
+
+.select-multile .css-26l3qy-menu {
+  z-index: 99;
+  background-color: #ffffff;
+}
+
+.btn-delete button {
+  width: 22px !important;
+  height: 22px !important;
+  border: none;
+  background-color: transparent;
+}
+
+.btn-delete button svg {
+  fill: red;
+}
+
+.btn-preview button {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.btn-preview button svg {
+  fill: rgb(3, 116, 31);
+}
+
+.btn-delete button:hover {
+  background-color: transparent;
+}
+
+.form-element {
+  display: flex;
+}
+
+.form-element h4 {
+  width: 25%;
+  font-weight: 600;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.form-element > div {
+  width: 75%;
+}
+
+.form-element div .select-multile {
+  width: 100%;
+}
+
+.form-element input {
+  padding: 0.5rem 1.2rem;
+  background: none;
+  border: 0.1rem solid #c9cccf;
+  line-height: 2.4rem;
+  border-radius: 5px;
+  width: 30%;
+  z-index: 100;
+  cursor: text;
+  font-size: 1.4rem;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.form-element input[type="checkbox"] {
+  height: 18px;
+  width: 18px;
+}
+
+.form-input-description {
+  font-weight: 400;
+  margin-top: 10px;
+  color: #999;
+  font-style: italic;
+  margin-top: 4px;
+}
+
+.plan-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.plan-price {
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+.plan-features {
+  margin: 3.2rem 0;
+  list-style: none;
+  padding: 0;
+}
+
+.upgrade-list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+.upgrade-list li {
+  width: 33.3%;
+  padding: 10px;
+  display: inherit;
+  color: #2d4d5b;
+  font-weight: 500;
+}
+.upgrade-form-title {
+  color: #2d4d5b;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.upgrade-form-button {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.upgrade-form-description {
+  color: #9da1a3;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.plan-features li {
+  display: flex;
+  align-items: center;
+}
+.plan-feature:not(.plan-feature:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.plan-features:not(.plan-features:last-child) .Polaris-Icon,
+.upgrade-list .Polaris-Icon {
+  margin-right: 1rem;
+  margin-left: 0;
+}
+
+/* layout */
+.layout-default {
+  padding-top: 58px;
+  display: grid;
+  grid-template-columns: 250px minmax(0px, 1fr);
+  grid-template-rows: 55px 1fr;
+  grid-template-areas: "menu main";
+  /* "left main"; */
+}
+
+.top-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.top-bar .Polaris-TopBar__Contents {
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.top-bar .Polaris-TopBar__SearchField {
+  padding: 0;
+  margin: 0;
+  width: fit-content;
+}
+.header {
+  position: fixed;
+  grid-area: menu;
+  width: 250px;
+  top: 58px;
+  left: 0;
+  min-height: 100vh;
+  bottom: 0;
+  justify-content: space-between;
+}
+
+.header-right {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+  position: relative;
+}
+
+.email-quota {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+  background: rgba(68, 157, 167, 0.1);
+  color: #347c84;
+  padding: 6px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dropdown-email {
+  position: absolute;
+  bottom: -2px;
+  height: 15px;
+  width: 153px;
+}
+
+.header-email-quota {
+  position: absolute;
+  top: 58px;
+  display: none;
+  /* visibility: hidden; */
+  transition: all 0.25s ease-in-out;
+}
+
+.dropdown-active {
+  display: block !important;
+  position: absolute;
+  top: 46px;
+  left: -67px;
+  transition: all 0.25s ease-in-out;
+}
+
+.header-right .email-quota .Polaris-Icon {
+  width: 12px;
+  height: 12px;
+}
+
+.header-right .email-quota .Polaris-Icon svg {
+  fill: #00a0ac;
+}
+
+.content {
+  grid-area: main;
+}
+.Polaris-Layout__Section--oneThird {
+  flex: 1 1 15px;
+  overflow: hidden;
+}
+
+.tab-step-started {
+  display: flex;
+  border-top: 1px solid #dfe3e8;
+}
+
+.tab-step-started .tab-left .tab-item {
+  padding: 24px 10px 24px 17px;
+  border-bottom: 1px solid #dfe3e8;
+  border-left: 1px solid #dfe3e8;
+  border-right: 1px solid #dfe3e8;
+  cursor: pointer;
+  background-color: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  min-width: 210px;
+}
+
+.not-verify {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin: 0 3px;
+  margin-right: 10px;
+  border: 1px dashed #2d4d5b;
+}
+
+.tab-step-started .tab-left .tab-item .Polaris-Icon {
+  width: 20px;
+  height: fit-content;
+  margin: 0;
+  margin-right: 8px;
+}
+
+.tab-step-started .tab-left .tab-item-active {
+  border-left: 2px solid #008060;
+  background-color: #fff;
+  border-right: 0;
+  border-top: 0;
+}
+
+.tab-step-started .tab-right {
+  padding: 20px;
+}
+
+.tab-step-started .tab-right .learn-more {
+  display: flex;
+  align-items: center;
+}
+
+.tab-step-started .tab-right .learn-more .Polaris-Icon {
+  margin: 0;
+  height: fit-content;
+}
+
+.install-step .Polaris-Icon {
+  margin: 0;
+  height: fit-content;
+}
+
+.edit-widget .Polaris-Page--fullWidth {
+  padding: 0;
+}
+
+.edit-widget .Polaris-Layout__Section--fullWidth {
+  margin-top: 0;
+}
+
+.edit-widget .Polaris-Layout__Section--oneThird {
+  max-height: calc(100vh - 56px);
+  overflow: auto;
+  border-right: 0.0625rem solid var(--p-divider);
+}
+
+.edit-widget .Polaris-Layout__Section--fullWidth .top-bar {
+  position: unset;
+}
+
+.edit-widget
+  .Polaris-Layout__Section--fullWidth
+  .top-bar
+  .Polaris-TopBar__Contents {
+  padding: 0 2rem;
+}
+
+.edit-widget .Polaris-Layout__Section:nth-child(2) {
+  margin-top: 0;
+}
+
+.custom-field-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#layout > ul {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 5px;
+}
+
+#layout > ul > li {
+  width: 50%;
+}
+
+#content {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+
+.edit-widget .Polaris-Layout__Section:nth-child(3) {
+  height: calc(100vh - 56px);
+}
+
+.install-group .Polaris-ButtonGroup {
+  justify-content: space-between;
+}
+
+.testimonial-date-picker {
+  /* width: 100%; */
+  min-width: 0;
+  height: 36px;
+  margin: 0;
+  padding: 0.5rem 0 0.5rem 1.2rem;
+  background: none;
+  border: 0.1rem solid #bfc1c3;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 4px;
+  appearance: none;
+  caret-color: var(--p-text);
+  color: var(--p-text);
+}
+
+.react-datepicker-popper {
+  z-index: 100 !important;
+}
+
+.react-datepicker__triangle {
+  left: 50% !important;
+  transform: translate(-50%, 0px) !important;
+}
+
+/*faq*/
+.layout-group {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.faq-group {
+  box-shadow: var(
+    --p-card-shadow,
+    0 0 0 1px rgba(63, 63, 68, 0.05),
+    0 1px 3px 0 rgba(63, 63, 68, 0.15)
+  );
+  border-radius: 0.8rem;
+}
+
+.faq-group .Polaris-Card__Section {
+  padding: 1.5rem 2rem;
+}
+
+.item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-name {
+  width: calc(100% - 110px);
+}
+
+.item-answer {
+  padding: 15px 0;
+}
+
+.group-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-bottom: 1px solid #ebebeb;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  font-weight: 600;
+  font-size: 1.75rem;
+}
+
+.group-header-action {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.group-header-action .Polaris-Icon {
+  width: 16px;
+  height: 16px;
+}
+
+.group-header-action .react-switch-handle {
+  height: 20px;
+  width: 20px;
+}
+
+.group-content {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  border-bottom-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+}
+
+.btn-add-faq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0 10px 0;
+}
+
+.btn-add-faq button {
+  color: #999;
+  text-decoration: none;
+}
+
+.btn-add-faq button .Polaris-Button__Text {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.btn-add-faq .Polaris-Icon {
+  height: 24px;
+  width: 24px;
+}
+
+.btn-add-faq svg {
+  fill: #999 !important;
+}
+
+.btn-add-faq button:hover {
+  color: rgb(107, 104, 104);
+  text-decoration: none !important;
+}
+
+.btn-add-faq button:hover svg {
+  fill: rgb(107, 104, 104) !important;
+  text-decoration: none !important;
+}
+
+.form-edit-group-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.form-edit-group-name > div:first-child {
+  width: 60%;
+}
+
+.icon-down .Polaris-Icon {
+  width: 26px;
+  height: 26px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.faq-empty {
+  margin: auto;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.icon-select {
+  width: 18px;
+  height: 18px;
+}
+
+#faqIconSelect .Polaris-Choice__Label {
+  width: 18px;
+  height: 18px;
+}
+
+#faqIconSelect .Polaris-Choice {
+  align-items: center;
+}

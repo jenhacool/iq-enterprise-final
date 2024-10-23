@@ -1,0 +1,44 @@
+[
+  {
+    "export_class": "Stock_Range",
+    "range": "JAPIAP",
+    "range_description": "JAPI API",
+    "category": "",
+    "target_gp": 0
+  },
+  {
+    "export_class": "Stock_Range",
+    "range": "002",
+    "range_description": "VERTICALE JAPI PLANTER",
+    "category": "",
+    "target_gp": 0
+  },
+  {
+    "export_class": "Stock_Range",
+    "range": "003",
+    "range_description": "BIOS JAPI PLANTER",
+    "category": "",
+    "target_gp": 0
+  },
+  {
+    "export_class": "Stock_Range",
+    "range": "004",
+    "range_description": "CLASSIC VERSAILLES",
+    "category": "",
+    "target_gp": 0
+  },
+  {
+    "export_class": "Stock_Range",
+    "range": "005",
+    "range_description": "EUROPEAN CONIC",
+    "category": "",
+    "target_gp": 0
+  },
+  {
+    "export_class": "Stock_Range",
+    "range": "006",
+    "range_description": "ANGOLO",
+    "category": "",
+    "target_gp": 0
+  }
+]
